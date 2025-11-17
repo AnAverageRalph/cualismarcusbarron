@@ -1,0 +1,74 @@
+<!DOCTYPE html> 
+<html> 
+	<head>
+		<title>The Tower Heuristics Analysis</title>
+		<style>
+		h1 {color: #5B5ADB;}
+		h2 {color: #E85454;}
+		table, th, td {
+				border: 4px solid black;
+				border-collapse: collapse; 
+			}
+			th, td {
+				background-color: #AEE888; 
+			}
+		</style>
+	</head>
+	<body> 
+		<h1>The Tower Heuristics Analysis</h1>
+		<h2>Input and Output Table</h2>
+			<table>
+					<th>I/O TEST</th>
+					<th>Input</th>
+					<th>Output</th>
+			</tr>
+			<tr>
+				<th>1</th>
+				<td>clicked on "the Tower 1922-1940" icon</td>
+				<td>a list of PDFs of Tower issues from that date range in alphabetical order. It included the issue’s title, year of publication, volume and issue number, if it was free to access, an image of the front page, and options to download, save, and cite the issue</td>
+				</tr>
+				<tr>
+					<th>2</th>
+					<td>search for "1939"</td>
+					<td>resulted in a list of all 1939 issues in alphabetical order</td>
+				</tr>
+				<tr>
+					<th>3</th>
+					<td>limit the date range from 1930-1932</td>
+					<td>resulted in a list of all issues from those years in alphabetical order</td>
+				</tr>
+				<tr>
+					<th>4</th>
+					<td>changed the “sort by” drop down menu from “a-z” to “newest"</td>
+					<td>resulted in a list of issues from 1930-1932 in order of release starting with the most recent issue</td>
+				</tr>
+			</table>
+		<h2>Write Up</h2> 
+			<p>The system does not provide any feedback on user requests, just a blank white screen. However it is fast enough that any input was answered in less than one second, making it not much of an issue. It communicates using natural language with no specialized jargon. It uses familiar terminology for downloading and saving articles, along with the standard volume and issue numbering system. Icons are also consistent with established norms, such as the search icon being represented by an hourglass. In the event a user makes a mistake and clicks on something by accident, the browser’s back button works as expected. There is also a part at the top of the page that shows where in the file tree users are, and if they want to go back to the home page they can just click on “The Tower” to do so. It is not immediately obvious or well telegraphed, however. The system is consistent with how other electronic databases lay out the page and display information, with a search bar at the top and a sidebar that allows users to refine a search on the left that are consistently there as the user navigates the site. The system is mostly good at preventing accidental user error with one significant exception. The system has two different search bars, one at the top of the page and the other within the page itself. The bar in the page is for searching within The Tower collection, but the one at the top of the page is for the entirety of JSTOR. It is not immediately obvious if the user makes the mistake of using the JSTOR search bar and not the collection’s bar, and once they do the only way to get back to the collection is to use the back button. The two search bars look similar to one another, with the main distinction being the collection’s bar is labeled “search within collection.” The JSTOR bar has no obvious label, making recognizing which is the right one more difficult.</p>
+
+				<img src="https://anaverageralph.github.io/cualismarcusbarron/DoubleBar.png" alt="An image of the two search bars, one at the top of the screen and one in the collection" width="960" height="426">
+
+			<p>Otherwise, however, it is easy to recognize the various elements of the system. The side bar for search refinement is sectioned off from the search results and uses a slightly different background color. The system is fairly flexible and easy to use. On the home page, the collection is broken up into five time periods consisting of 1922-1940, 1941–1960, 1961-1980, 1981-2000, and 2001-2020. Once inside one of the collections, the displayed results can be constricted to only those between specific years and the collection can be searched. However, the search function is quite limited. The full text of articles is not searchable prior to October 2003 and there is no searchable metadata like tags for articles about World War II or Vietnam. Users need to either know which issue they are looking for or check every one in a known date range to find what they are looking for, and finding something like a retrospective is almost impossible. The site’s design is minimalist with no extranious animations, images, color, or other elements that might distract the user. I was not able to generate any error messages, including any resulting from searching with the wrong search bar. The site does not require any documentation to use, but there is a “search help” option that takes the user to the JSTOR help resources.</p>
+			<p>I tried looking for the effects of the Vietnam War on Catholic students and on life in Catholic, but I was not able to make much headway in 20 minutes. There was no way to search for it, so I had to go through issue by issue and did not find much.</p>
+		<h2>Strengths</h2>
+			<ol>
+				<li>Every issue has been digitized in high resolution and are clear and easy to read</li>
+				<li>the documents are organized in twenty year time groups which can be further narrowed down to specific year ranges, which makes tracking what was going on in a particular date range more convenient</li>
+			<ol>
+		
+		<img src="https://anaverageralph.github.io/cualismarcusbarron/TowerOrganization.png" alt="The home page of the repository showing its organization by decade." height="467" width="969">
+
+		<h2>Weaknesses</h2>
+			<ol>
+				<li>The full text of the paper is not searchable except for a small portion after October 2003, and there is no metadata about the topics of the articles. This complicates searching for information about specific topics as users have to pick a time period and go issue by issue and hope they find something.</li>
+				<li>The ambiguity of the double search bar. Searching the entirety of JSTOR is not a mistake I think someone would make more than once, but it is one I think someone would make once. It is disorientating and confusing when it happens.</li>
+			<ol>
+
+		<img src="https://anaverageralph.github.io/cualismarcusbarron/SearchLimitation.png" alt="Shows the limitation of the search function. 2004 is the oldest year found with the word vietnam despite it appearing much earlier" height="467" width="969">
+		<h2>Usability Test</h2>
+			<p>The mini-usability test largely fell in line with the heuristics analysis. The individual felt the system was easy to learn and that the way issues were broken up by decade made searching through various time periods very straightforward. However, they expressed frustration with the inability to search the full text of issues from before 2003. They found it nearly impossible to find articles about World War II or Vietnam. In one case they found one completely by accident by just clicking on a random article, and eventually concluded that the only way they could find anything would be by looking up the dates of major events during the war and looking at issues from the same time period. However, this approach was unsuccessful when they were prompted with the dates of the Tet Offensive and Paris Peace Accord. The main place their experience differed is that they did not have any issue with the double search bar. They used the correct one the first time and never expressed confusion about it.</p>
+		<h2>Conclusion</h2>
+			<p>The system is easy to learn and use, is well organized, and is uncluttered and free of distractions. However, the inability to search the majority of issues is a major drawback. The full text of all issues should be made searchable, or if that proves impractical searchable metadata containing the topics of articles should be added to them.</p>
+
+	</body>
+</html>
